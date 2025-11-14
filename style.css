@@ -5,7 +5,7 @@
 }
 body{
     font-family: "Montserrat";
-    background-color: #333;
+    background-color: #FFF; 
     display: grid;
     place-items: center;
     height: 100dvh;
@@ -94,7 +94,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 60%; 
+    height: 50%; 
     width: 100%;
     background-size: cover;
     background-position: center bottom;

@@ -4,8 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search Dogs</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./searchDogs.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <main class="container">
+        <header class="cabecalho">
+            <nav class="nav-menu">
+                <a href="./index.html" class="arrow-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </a>
+                <h1>Search</h1>
+                <a href="#">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        <!-- Barra de pesquisa -->
+        <div class="search-bar-wrapper">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="text" id="textID" placeholder="Woody">
+            </div>
+        </div>
+        <!-- Botões alterar de cães para gatos -->
+             <div class="switch-animals">
+                 <div class="dogs-page">
+                    <i class="fa-solid fa-dog" style="color: #FFF;"></i>
+                    <a href="./searchDogs.html">
+                        <p>Dogs</p>
+                    </a>
+                 </div>
+                 <div class="cats-page">
+                    <i class="fa-solid fa-cat"></i>
+                    <a href="./searchCats.html">
+                        <p>Cats</p>
+                    </a>
+                 </div>
+             </div>
+             <!-- Container de card de cães -->
+             <div class="dogs-container">
+                 <article class="dog-Benji dog-card">
+                    <div class="dog-image">
+                        <img src="./images/1-search/dogs/benji.png" alt="Benji Dog">
+                    </div>
+                    <div class="dog-infos">
+                        <div class="dog-text">
+                            <h3>Benji</h3>
+                            <p>Golden</p>
+                        </div>
+                        <div class="dog-house-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                 </article>
+
+                 <article class="dog-Alban dog-card">
+                    <div class="dog-image">
+                        <img src="./images/1-search/dogs/alvan.png" alt="Alban Dog">
+                    </div>
+                    <div class="dog-infos">
+                        <div class="dog-text">
+                            <h3>Alban</h3>
+                            <p>Corgi</p>
+                        </div>
+                        <div class="dog-house-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                 </article>
+
+                 <article class="dog-Karsten dog-card">
+                    <div class="dog-image">
+                        <img src="./images/1-search/dogs/karsten.png" alt="Karsten Dog">       
+                    </div>
+                    <div class="dog-infos">
+                        <div class="dog-text">
+                            <h3>Karsten</h3>
+                            <p>Bulldog</p>
+                        </div>
+                        <div class="dog-house-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                 </article>
+
+                 <article class="dog-Reigner dog-card">
+                    <div class="dog-image">
+                        <img src="./images/1-search/dogs/reigner.png" alt="Reigner Dog">
+                    </div>
+                    <div class="dog-infos">
+                        <div class="dog-text">
+                            <h3>Reigner</h3>
+                            <p>Pug</p>
+                        </div>
+                        <div class="dog-house-icon">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+                    </div>
+                 </article>
+             </div>
+    </main>
 </body>
 </html>
